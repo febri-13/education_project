@@ -10,6 +10,23 @@
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/white.css">
 		<link rel="stylesheet" href="Bab_1">
+		<link rel="stylesheet" href="Bab 2">
+		<style>
+				.container{
+					display: flex;
+					gap: 100px;
+				}
+				.col.scrollable{
+					flex:1;
+					height: 550px;
+					overflow-y: auto !important;
+				}
+				.col {
+					flex: 1;
+					
+					
+				}
+		</style>
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,9 +34,10 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-image="Bab_1/LogoABBS.png" data-background-size="100% 100%" data-background-position="top">
+				<!------- Side 1 : Opening------>
+				<section data-background-image="Bab_1/SplashScreen_bg.png" data-background-size="100% 100%" data-background-position="top">
 					<div style="column-count:2">
-					<video controls data-autoplay src="Bab_1/Project_Edukasi_1_New Project.mp4" width="100%"> </video>
+					<video controls loop data-autoplay src="Bab_1/Project_Edukasi_1_New Project.mp4" width="100%"> </video>
 					<div style="text-align:left">
 						<p> <strong>Hello World</strong></p>
 						<p>You will make an New Project call "Project_Edukasi"
@@ -29,27 +47,31 @@
 						</div>
 					</div>
 				</section>
-				<section data-background-image="Bab_1/LogoABBS.png" data-background-size="100% 100%" data-background-position="top">
+				<!------- Side 2 : Introduction Arch ------>
+				<section data-background-image="Bab_1/SplashScreen_bg.png" data-background-size="100% 100%" data-background-position="top">
+					<!------- Begining Arc Introduction ------>
+					<!------- Side 2.1 ------>
 					<section>
 						<h1> Cross Slide</h1>
 						<p> In this slide you can navigate vertical or horizontal </p>
 					</section>
-					<section>
-						<div style="column-count:2">
-							<img src="Bab_1/Project_Edukasi_2_Design.png" width="100%"> </img>
-						<div style="text-align:left">
-						<p> <strong>Dashboard Project</strong></p>
-						<p> As you can see, the image on the side is the dashboard
-						of the project.
-						</p>
+					<!------- Side 2.2 ------>
+					<section >
+						<div class="container">
+							<img class="col" src="Bab_1/Project_Edukasi_2_Design.png" width="100%"> </img>
+							<div class="col" style="text-align:left">
+							<h2>Dashboard Project</h2>
+							<p> As you can see, the image on the side is the dashboard
+							of the project.</p>
+							</div>
 						</div>
-					</div>
 					</section>
 					<section>
+					<!------- Side 2.3 ------>
 						<div style="column-count:2">
-							<video controls data-autoplay src="Bab_1/Project_Edukasi_3_Rename.mp4" width="100%"> </video>
+							<video controls loop data-autoplay src="Bab_1/Project_Edukasi_3_Rename.mp4" width="100%"> </video>
 						<div style="text-align:left">
-						<p> <strong>Rename_Screen1</strong></p>
+						<h2>Rename_Screen1</h2>
 						<p> "What ? Why I must rename the screen name ?"
 						Just for more easy navigation for your project
 						</p>
@@ -57,10 +79,11 @@
 					</div>	
 					</section>
 					<section>
+					<!------- Side 2.4 ------>
 						<div style="column-count:2">
-							<video controls data-autoplay src="Bab_1/Project_Edukasi_4_Add Komponen.mp4" width="100%"> </video>
+							<video controls loop data-autoplay src="Bab_1/Project_Edukasi_4_Add Komponen.mp4" width="100%"> </video>
 						<div style="text-align:left">
-						<p> <strong>Add Components</strong></p>
+						<h2>Add Components</h2>
 						<p> Just add Label and Image components,
 						at the User Interface menu on the left side 
 						</p>
@@ -70,17 +93,153 @@
 					</div>	
 					</section>
 					<section>
+					<!------- Side 2.5 ------>
 						<div style="column-count:2">
-							<video controls data-autoplay src="Bab_1/Project_Edukasi_5_Upload Logo.mp4" width="100%"> </video>
+							<video controls loop data-autoplay src="Bab_1/Project_Edukasi_5_Upload Logo.mp4" width="100%"> </video>
 						<div style="text-align:left">
-							<p> <strong> Upload Logo</strong></p>
+							<h2>Upload Logo</h2>
 							<p> You can upload your own logo or you can download from this link and upload to your project</p>
 							<p> How to upload the logo, please watch the video</p>
 							</div>
 						</div>	
 					</section>
+					<section>
+					<!------- Side 2.6 ------>
+					
+						<div class="container ">
+							<video class="col" controls loop data-autoplay src="Bab_1/Project_Edukasi_6_Insert and Edit Logo.mp4" width="100%"> </video>
+						<div class="col scrollable" style="text-align:left">
+							<h2> <strong> Insert and Edit Logo</strong></h2>
+							<p> After you upload the logo, Left click on Image Component</p>
+							<p> Then you choose the logo on "Picture" submenu component</p>
+							<p> Last but not least adjust the "Height and Width" to fit on the phone screen</p>
+							</div>
+						</div>	
+					</section>
+					<section>
+					<!------- Side 2.7 ------>
+						<div class="container">
+							<video class="col" controls loop data-autoplay src="Bab_1/Project_Edukasi_7_Editing Label Component.mp4" width="100%"> </video>
+						<div class="col" style="text-align:left">
+							<br>
+							<h2>Edit the Component Label (Optional)</h2>
+							<p> Label in this section for splash screen</p>
+							<p> It's like if you boot your laptop, you will see the brand or logo.</p>
+							<p> <a href="https://www.lenovo.com/ca/en/glossary/splash-screen/" target="#">Why splash screen is important ?</a></p>
+							</div>
+						</div>	
+					</section>
+					<!------- End Arc Introduction ------>
 					
 				</section>
+				<section data-background-image="Bab 2/MainScreen_bg.png" data-background-size="100% 100%" data-background-position="top">
+					<!-------- Start Arch Main Screen --------->
+					<!-------- Slide 3.1 ---------------->
+					<section>
+						<h1>Main Screen</h1>
+						<p> In this section you gonna make main screen</p>
+						<p> Keep Calm it's easy step, we just make layout and component</p>
+						<p> If you confuse, pls watch the video</p>
+						<p><strong>PRESS DOWN ARROW ON YOUR KEYBOARD</strong></p>
+					</section>
+					<!-------- Slide 3.2 add New Scren --------->
+					<section>
+						<div class="container">
+							<div class="col">
+								<video controls loop data-autoplay src="Bab 2/Project_Edukasi_1_New Screen.mp4" width="100%"></video>
+							</div>
+							<div class ="col" style="text-align:left">
+								<h2> Add New Screen</h2>
+								<p> Left Click on Add Screen -> name Main_Screen -> OK</p>
+								<p> If there is error make sure you follow the MIT Inventor rule</p>
+							</div>
+						</div>
+					</section>
+					<!-------- Slide 3.3 Layout Setting--------------->
+					<section>
+						<div class="container">
+							<div class="col">
+								<video controls loop data-autoplay src="Bab 2/Project_Edukasi_2_Layout Setting.mp4" width="100%"></video>
+							</div>
+							<div class ="col" style="text-align:left">
+								<h2> Layout Setting</h2>
+								<p> Add Vertical Scroll Aranggement on Layout Menu on the left side</p>
+								<p> Setting Horizontal Alignment to Center, then setting the height and width to "Fill the Parent"</p>
+							</div>
+						</div>
+					</section>
+					<!-------- Slide 3.4 Button Component--------------->
+					<section>
+						<div class="container">
+							<div class="col">
+								<br>
+								<video controls loop data-autoplay src="Bab 2/Project_Edukasi_3_Adding Button's Components.mp4" width="100%"></video>
+							</div>
+							<div class ="col" style="text-align:left">
+								<h2> Button Component</h2>
+								<p> Add three button components</p>
+								<p> You can find the button on left side User Interface Menu</p>
+							</div>
+						</div>
+					</section>
+					<!-------- Slide 3.6 Edit Button 1--------------->
+					<section>
+						<div class="container">
+							<div class="col">
+								<br>
+								<video controls loop data-autoplay src="Bab 2/Project_Edukasi_4_Edit Button 1.mp4" width="100%"></video>
+							</div>
+							<div class ="col" style="text-align:left">
+								<h2> Edit the Button 1</h2>
+								<p> After you add the button, edit the button 1</p>
+								<p> set font size to 20</p>
+								<p> adjust the height and width to "Fill Parent"</p>
+								<p> set the name to "Introduction ESP 32"</p>
+							</div>
+						</div>
+					</section>
+					<!-------- Slide 3.7 Edit Button 2--------------->
+					<section>
+						<div class="container">
+							<div class="col">
+								<br>
+								<video controls loop data-autoplay src="Bab 2/Project_Edukasi_5_Edit Button 2.mp4" width="100%"></video>
+							</div>
+							<div class ="col" style="text-align:left">
+								<h2> Edit the Button 2</h2>
+								<p> After you edit the button 1, then edit the button 2</p>
+								<p> Set font size to 20</p>
+								<p> Adjust the height and width to "Fill Parent"</p>
+								<p> Set the name to "Type of ESP 32"</p>
+							</div>
+						</div>
+					</section>
+					<!-------- Slide 3.8 Edit Button 3--------------->
+					<section>
+						<div class="container">
+							<div class="col">
+								<br>
+								<video controls loop data-autoplay src="Bab 2/Project_Edukasi_6_Edit Button 3.mp4" width="100%"></video>
+							</div>
+							<div class ="col" style="text-align:left">
+								<h2> Edit the Button 3</h2>
+								<p> After you edit the button 2,then edit the button 3</p>
+								<p> Set font size to 20</p>
+								<p> Adjust the height and width to "Fill Parent"</p>
+								<p> Set the name to "About"</p>
+							</div>
+						</div>
+					</section>
+					<!-------- Slide 3.9 Congratulation--------------->
+					<section>
+						<h2> Congratulation you've done make a simple main screen</h2>
+						<p> It's Easy peazy, right ?</p>
+						<p> then go to the next section</p>
+					</section>
+					
+					<!---------- End Arc Main Screen -------------->
+				</section>
+				
 			</div>
 		</div>
 
@@ -96,6 +255,11 @@
 			hash: true,
 			width: 1280,
 			height: 720,
+			center: true,
+			showNotes: true,
+			disableLayout: false,
+			margin: 0.1,
+			slideNumber: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
